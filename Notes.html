@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Feedback Form</title>
+    </head>
+<style>
+    body {
+        background-color: aquamarine;
+
+    }
+
+    form {
+        border-radius: 1px solid black;
+        border: 1px solid black;
+        border-color: rgb(255, 0, 0);
+        padding: 10px;
+    }
+    #navigation{
+        height: 100px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position:space-between;
+        gap: 50px;
+        overflow: hidden;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        margin: 0 20px;
+    }
+    
+    #navigation a{
+        color: #ff0000;
+    }
+</style>
+
+<body align="center">
+
+
+    <form action="./Help.html" target="_self" src="" border="1px solid black">
+        <div id="navigation">
+            <a href="http://127.0.0.1:5501/sidcup-family-golf/index.html">Home</a>
+            <a href="./Feedback.html">Notes</a>
+        </div>
+        <h2 style="font-size: 40px; color:blueviolet;"><u>Feedback Form</u></h2>
+        Your Name :<br>
+        <input type="text" name="name" placeholder="Enter your name" />
+        <br> <br>
+        Your Email :<br>
+        <input type="email" name="email" placeholder="Enter your email" />
+        <br> <br>
+        Your Mobile No :<br>
+        <input type="number" name="mono" placeholder="Enter mobile number">
+        <br> <br>
+        Select Gender :<br>
+        <input type="radio" name="Gender"> Male
+        <input type="radio" name="Gender"> Fe-Male
+        <br> <br>
+        Coding Language :<br>
+        <input type="checkbox" name="lang"> AJP
+        <input type="checkbox" name="lang"> OSY
+        <input type="checkbox" name="lang"> STE
+        <input type="checkbox" name="lang"> CSS
+        <input type="checkbox" name="lang"> EST
+        <br> <br>
+        Select your college :<br>
+        <select name="college">
+            <option value=" VAPM ">VAPM</option>
+            <option value=" PLGPL ">PLGPL</option>
+            <option value=" VDF ">VDF</option>
+            <option value=" JSPM ">JSPM</option>
+            <option value=" SVSPM ">SVSPM</option>
+        </select>
+        <br> <br>
+        Feedback : <br>
+        <textarea name="feedback" cols="30" rows="10"></textarea>
+        <br> <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+    <br><br><br>
+</body>
+
+</html>
